@@ -19,3 +19,6 @@ export * from './evolution';
 
 // Location types
 export * from './locations';
+
+// Smogon usage statistics types
+export * from './smogon';

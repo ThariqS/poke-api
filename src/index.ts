@@ -8,6 +8,7 @@ import { MoveAPI } from './api/moves';
 import { BerryAPI } from './api/berries';
 import { EvolutionAPI } from './api/evolution';
 import { LocationAPI } from './api/locations';
+import { SmogonModule } from './modules/smogon';
 
 // Export types
 export * from './types';
@@ -45,6 +46,7 @@ export class PokeAPI {
   public readonly berries: BerryAPI;
   public readonly evolution: EvolutionAPI;
   public readonly locations: LocationAPI;
+  public readonly smogon: SmogonModule;
 
   /**
    * Create a new PokeAPI instance
@@ -59,6 +61,7 @@ export class PokeAPI {
     this.berries = new BerryAPI(this.client);
     this.evolution = new EvolutionAPI(this.client);
     this.locations = new LocationAPI(this.client);
+    this.smogon = new SmogonModule();
   }
 
   /**

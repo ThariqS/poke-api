@@ -9,7 +9,8 @@
     "build": "bun build src/index.ts --outdir dist --target node",
     "test": "bun test",
     "dev": "bun run src/index.ts",
-    "lint": "echo 'Linting not configured yet'"
+    "lint": "echo 'Linting not configured yet'",
+    "agent": "bun run agent.ts"
   },
   "keywords": [
     "pokemon",
@@ -21,6 +22,9 @@
   ],
   "author": "",
   "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "latest"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
