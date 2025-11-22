@@ -1,0 +1,30 @@
+{
+  "name": "poke-api-sdk",
+  "version": "1.0.0",
+  "description": "TypeScript SDK for PokeAPI integration built with Bun",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "bun build src/index.ts --outdir dist --target node",
+    "test": "bun test",
+    "dev": "bun run src/index.ts",
+    "lint": "echo 'Linting not configured yet'"
+  },
+  "keywords": [
+    "pokemon",
+    "pokeapi",
+    "api",
+    "sdk",
+    "typescript",
+    "bun"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
