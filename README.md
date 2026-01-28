@@ -1,9 +1,5 @@
 # PokeAPI SDK
 
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Bun](https://img.shields.io/badge/Bun-1.0-f9f1e1?logo=bun&logoColor=black)](https://bun.sh/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 A comprehensive TypeScript SDK for [PokeAPI](https://pokeapi.co/) built with Bun. This library provides a type-safe, easy-to-use interface for accessing Pokemon data including Pokemon, moves, abilities, berries, locations, and evolution chains.
 
 ## Features
